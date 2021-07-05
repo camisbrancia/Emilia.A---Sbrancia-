@@ -8,14 +8,14 @@
 
 .Intro {
   color: black;
-  font-family: "Reenie Beanie", cursive;
+  font-family: "Nixie One", cursive;
   font-size: 3rem;
   text-align: center;
   letter-spacing: 6px;
-  padding: 20px;
+  padding: 10px;
   text-transform: lowercase;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 a {
@@ -25,15 +25,16 @@ a {
 
 .logo {
   width: auto;
-  height: 3rem;
-  padding: 5px;
+  height: 4rem;
+  padding: 6px;
   display: flex;
   align-items: left;
+  margin-top: 2%;
 }
 
 body {
-  font-family: "Inconsolata", monospace;
-  background-image: url(images/ground.jpg);
+  font-family: "Nixie One", cursive;
+  background-image: url("../images/back.jpg");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,10 +59,31 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
+  color: black;
 }
 header nav ul li a:hover {
-  color: black;
+  text-decoration: underline;
+}
+
+.Header-Home {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+.Header-Home nav {
+  padding: 1px;
+}
+.Header-Home nav ul {
+  list-style: none;
+}
+.Header-Home nav ul li a {
   text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.Header-Home nav ul li a:hover {
+  text-decoration: underline;
 }
 
 /* Body */
@@ -71,49 +93,87 @@ header nav ul li a:hover {
   height: 25rem;
   margin-top: 10px;
   border-radius: 10px;
+  opacity: 90%;
 }
 
 .photo-grid {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(245, 245, 245, 0.452);
   margin-top: 3%;
 }
 
 .btn-outline-secondary:hover {
-  background-color: whitesmoke !important;
+  background-color: whitesmoke;
+  opacity: 50%;
+  color: black;
 }
 
 .photo-grid a {
   margin-top: 4%;
   margin-bottom: 2%;
   letter-spacing: 3px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 0.9rem;
   display: flex;
   justify-content: center;
   list-style-type: none;
   text-decoration: none;
+  background-color: whitesmoke;
+  opacity: 30%;
+  color: black !important;
+}
+
+.Autor {
+  letter-spacing: 5px;
+  font-family: "Nixie One", cursive;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.Presentacion {
+  font-family: "Nixie One", cursive;
+  color: black;
+  letter-spacing: 3px;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: flex;
+  align-content: center;
+}
+
+.Texto-presentacion {
+  font-family: "Nixie One", cursive;
+  color: black;
+  word-spacing: 2.5px;
+  font-size: 1.1rem;
+  margin-top: 1%;
+}
+
+.foto-emi {
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  opacity: 80%;
+  margin-left: 5%;
 }
 
 /* Footer */
 /*variables*/
 footer {
   background-color: white;
-  padding: 1.2rem;
+  padding: 1.3rem;
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  text-transform: uppercase !important;
 }
 footer i a {
   color: black;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1rem;
   font-weight: lighter;
-  text-transform: uppercase !important;
 }
 
 /* Contacto */
@@ -121,7 +181,7 @@ footer i a {
 .titulo {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
   font-size: 2.5rem !important;
   margin-top: 1.5rem;
@@ -129,24 +189,23 @@ footer i a {
 
 .contacto-container {
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
 }
 
 .formulario-title {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   text-transform: uppercase;
   padding: 20px;
 }
 
 .formulario-main {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   color: black;
   display: flex;
   justify-content: center;
-  background-color: white;
   width: 100%;
   padding: 20px;
   margin-bottom: 2%;
@@ -156,14 +215,14 @@ footer i a {
   width: 500px !important;
 }
 
-.btn {
+.btn1 {
   background-color: black !important;
   display: flex;
   justify-content: center !important;
   text-transform: uppercase !important;
   border-color: black;
 }
-.btn:hover {
+.btn1:hover {
   text-decoration: underline;
 }
 
@@ -172,23 +231,32 @@ footer i a {
 .title-servicio {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
   font-size: 2.5rem !important;
   margin-top: 1.5rem;
 }
 
 .copete-servicio {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1.5rem;
   letter-spacing: 2px;
 }
 
 .texto-servicio {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1.3rem;
   text-align: center;
   margin: 4%;
+  color: black;
+}
+
+.clientes {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 20px;
+  width: 100%;
 }
 
 /* Moda Sustentable */
@@ -196,17 +264,18 @@ footer i a {
 .title-moda {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
   font-size: 2.5rem !important;
   margin-top: 1.5rem;
 }
 
 .copete-moda {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1.3rem;
   text-align: center;
   margin: 4%;
+  color: white;
 }
 
 .title-consejo {
@@ -216,28 +285,50 @@ footer i a {
   margin-top: 1%;
 }
 
+.img-consejo {
+  width: 40rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.container {
+  background-color: rgba(165, 148, 150, 0.575);
+  margin-bottom: 3%;
+}
+
+.consejo {
+  padding: 1%;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
 /* Conciencia */
 /*variables*/
 .title-conciencia {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
   font-size: 2.5rem !important;
   margin-top: 1.5rem;
 }
 
 .pregunta {
-  font-family: "Inconsolata", monospace;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
+  color: white;
+  font-family: "Nixie One", cursive;
+  padding: 20px;
+  font-size: 1.3rem;
+  margin-top: 1%;
 }
 
 .respuesta {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1.3rem;
   text-align: center;
-  margin: 4%;
+  margin: 5%;
+  margin-top: 1%;
 }
 
 .tipos-impactos {
@@ -285,15 +376,21 @@ footer i a {
 
 h3 {
   text-align: center;
-  font-family: "Inconsolata", monospace;
-  font-size: 0.9rem;
+  font-family: "Nixie One", cursive;
+  font-size: 1rem;
+  color: white;
 }
 
 p {
   text-align: justify;
-  font-family: "Inconsolata", monospace;
-  font-size: 0.7rem;
+  font-family: "Nixie One", cursive;
+  font-size: 0.8rem;
   margin-bottom: 10%;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 /* Sobre mi*/
@@ -301,14 +398,14 @@ p {
 .Emi {
   color: white;
   text-align: center;
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   padding: 20px;
   font-size: 2.5rem !important;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .style-paragraph {
-  font-family: "Inconsolata", monospace;
+  font-family: "Nixie One", cursive;
   font-size: 1.3rem;
   text-align: justify;
   margin-left: 10%;
@@ -319,9 +416,10 @@ p {
   display: flex;
   align-items: center;
   align-content: center;
-  margin-left: 30%;
-  height: 5rem;
-  width: 25rem;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

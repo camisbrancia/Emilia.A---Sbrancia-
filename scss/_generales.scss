@@ -2,9 +2,9 @@
 
 /* Variables */
 $c:black;
-$font: 'Reenie Beanie', cursive;
+$font:'Nixie One', cursive;
 $t-align:center;
-$pad: 20px;
+$pad: 10px;
 
 * {
     margin: 0;
@@ -22,7 +22,7 @@ $pad: 20px;
     padding: $pad;
     text-transform: lowercase;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
 
 }
 
@@ -34,15 +34,16 @@ a {
 
 .logo {
     width: auto;
-    height: 3rem;
-    padding: 5px;
+    height: 4rem;
+    padding: 6px;
     display:flex;
     align-items: left;
+    margin-top: 2%;
 }
 
 body{
-	font-family: 'Inconsolata', monospace;
-    background-image:url(images/ground.jpg);
+	font-family:$font;
+    background-image:url("../images/back.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;

@@ -7,18 +7,20 @@ $pad: 20px;
 $w:100%;
 $h:100%;
 $d:flex;
+$font:'Nixie One', cursive;
 
 .Emi{
     color:$c;
     text-align: $t-align;
-    font-family: 'Inconsolata', monospace;
+    font-family: $font;
     padding: $pad;
     font-size: 2.5rem !important;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+
     }
 
 .style-paragraph {
-    font-family: 'Inconsolata', monospace;
+    font-family:$font;
     font-size: 1.3rem;
     text-align: justify;
     margin-left: 10%;
@@ -29,7 +31,8 @@ $d:flex;
 display: $d;
 align-items: center;
 align-content: center;
-margin-left: 30%;
-    height: 5rem;
-    width: 25rem;
+margin-left: 25%;
+margin-top: 5%;
+margin-bottom: 5%;
+width: 50%;
 }

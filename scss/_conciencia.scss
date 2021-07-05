@@ -6,27 +6,31 @@ $t-align:center;
 $pad: 20px;
 $w:100%;
 $h:100%;
+$font:'Nixie One', cursive;
 
 .title-conciencia{
     color:$c;
     text-align: $t-align;
-    font-family: 'Inconsolata', monospace;
+    font-family: $font;
     padding: $pad;
     font-size: 2.5rem !important;
     margin-top: 1.5rem;
     }
 
 .pregunta{
-        font-family: 'Inconsolata', monospace;
-        font-size: 1.5rem;
-        letter-spacing: 2px;
+    color:$c;
+    font-family: $font;
+    padding: $pad;
+    font-size: 1.3rem;
+    margin-top: 1%;
     }
 
 .respuesta{
-        font-family: 'Inconsolata', monospace;
-        font-size: 1.3rem;
-        text-align: $t-align;
-        margin: 4%;
+    font-family: $font;
+    font-size: 1.3rem;
+    text-align: $t-align;
+    margin: 5%;
+    margin-top: 1%;
     }
     
 .tipos-impactos {
@@ -74,13 +78,19 @@ $h:100%;
 
 h3 {
     text-align: $t-align;
-    font-family: "Inconsolata", monospace;
-    font-size: 0.9rem;
+    font-family: $font;
+    font-size: 1rem;
+    color:$c
 }
 
 p {
     text-align: justify;
-    font-family: "Inconsolata", monospace;
-    font-size: 0.7rem;
+    font-family: $font;
+    font-size: 0.8rem;
     margin-bottom: 10%;
+}
+
+h3{
+    text-transform: uppercase;
+    margin-top: 1rem;
 }

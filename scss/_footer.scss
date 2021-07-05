@@ -2,10 +2,11 @@
 
 /*variables*/
 $bg-color:white;
-$p-general: 1.2rem;
+$p-general: 1.3rem;
 $w:100%;
 $color:black;
 $t-align:center;
+$font:'Nixie One', cursive;
 
 footer{
     background-color: $bg-color;
@@ -15,14 +16,15 @@ footer{
     justify-content: space-around;
     align-items: center;
     align-content: center;
+    text-transform: uppercase !important;
+    
     i{
         a{
             color:$color;
             text-align:$t-align;
-            font-family: 'Inconsolata', monospace;
+            font-family: $font;
             font-size: 1rem;
             font-weight: lighter;
-            text-transform: uppercase !important;
         }
     }
 }

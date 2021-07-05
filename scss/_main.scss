@@ -1,11 +1,12 @@
 /* Body */
 
 /* variables*/
-$bg-color:rgba(245, 245, 245, 0.452);
+$bg--color:gray;
 $p-images: 20rem;
 $j-cont: space-around;
 $d:flex;
 $w-image:25rem;
+$font:'Nixie One', cursive;
 
 
 .photo-grid img {
@@ -13,16 +14,20 @@ $w-image:25rem;
     height: $w-image;
     margin-top: 10px;
     border-radius: 10px;
+    opacity: 90%;
 }
 
 .photo-grid {
     display: $d;
     justify-content: $j-cont;
-    background-color: $bg-color;
     margin-top: 3%;
 }
+
+
 .btn-outline-secondary:hover{
-    background-color: whitesmoke !important;
+    background-color: whitesmoke;
+    opacity: 50%;
+    color: black;
 }
 
 
@@ -30,10 +35,48 @@ $w-image:25rem;
     margin-top: 4%;
     margin-bottom: 2%;
     letter-spacing: 3px;
-    font-family: 'Inconsolata', monospace;
+    font-family: $font;
     font-size: 0.9rem;
     display: $d;
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
+    background-color: whitesmoke;
+    opacity: 30%;
+    color: black !important;
+   
+}
+
+.Autor{
+    letter-spacing: 5px;
+    font-family: $font;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.Presentacion{
+    font-family: $font;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: $d;
+    align-content: center;
+}
+
+.Texto-presentacion {
+    font-family: $font;
+    color: black;
+    word-spacing: 2.5px;
+    font-size: 1.1rem;
+    margin-top: 1%;
+}
+
+
+.foto-emi{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    opacity: 80%;
+    margin-left: 5%;
 }
