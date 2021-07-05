@@ -1,0 +1,51 @@
+/* Estilos Generales */
+
+/* Variables */
+$c:black;
+$font: 'Reenie Beanie', cursive;
+$t-align:center;
+$pad: 20px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Intro {
+    color: $c;
+    font-family: $font;
+    font-size: 3rem;
+    text-align: $t-align;
+    letter-spacing: 6px;
+    padding: $pad;
+    text-transform: lowercase;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+a {
+    color: $c;
+    text-decoration: none;
+}
+
+.logo {
+    width: auto;
+    height: 3rem;
+    padding: 5px;
+    display:flex;
+    align-items: left;
+}
+
+body{
+	font-family: 'Inconsolata', monospace;
+    background-image:url(images/ground.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: border-box;
+}

@@ -1,0 +1,28 @@
+/* Servicios */
+
+/*variables*/
+$c:white;
+$t-align:center;
+$pad: 20px;
+
+.title-servicio{
+color:$c;
+text-align: $t-align;
+font-family: 'Inconsolata', monospace;
+padding: $pad;
+font-size: 2.5rem !important;
+margin-top: 1.5rem;
+}
+
+.copete-servicio{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.texto-servicio{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.3rem;
+    text-align: $t-align;
+    margin: 4%;
+}

@@ -1,0 +1,327 @@
+/* Estilos Generales */
+/* Variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Intro {
+  color: black;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 6px;
+  padding: 20px;
+  text-transform: lowercase;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: auto;
+  height: 3rem;
+  padding: 5px;
+  display: flex;
+  align-items: left;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  background-image: url(images/ground.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
+}
+
+/* Header */
+/* variables*/
+header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+header nav {
+  padding: 1px;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header nav ul li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* Body */
+/* variables*/
+.photo-grid img {
+  width: 25rem;
+  height: 25rem;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(245, 245, 245, 0.452);
+  margin-top: 3%;
+}
+
+.btn-outline-secondary:hover {
+  background-color: whitesmoke !important;
+}
+
+.photo-grid a {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  letter-spacing: 3px;
+  font-family: "Inconsolata", monospace;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Footer */
+/*variables*/
+footer {
+  background-color: white;
+  padding: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+footer i a {
+  color: black;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-transform: uppercase !important;
+}
+
+/* Contacto */
+/*variables*/
+.titulo {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+  font-size: 2.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.contacto-container {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+}
+
+.formulario-title {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.formulario-main {
+  font-family: "Inconsolata", monospace;
+  color: black;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 2%;
+}
+
+.form-control {
+  width: 500px !important;
+}
+
+.btn {
+  background-color: black !important;
+  display: flex;
+  justify-content: center !important;
+  text-transform: uppercase !important;
+  border-color: black;
+}
+.btn:hover {
+  text-decoration: underline;
+}
+
+/* Servicios */
+/*variables*/
+.title-servicio {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+  font-size: 2.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.copete-servicio {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.texto-servicio {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 4%;
+}
+
+/* Moda Sustentable */
+/*variables*/
+.title-moda {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+  font-size: 2.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.copete-moda {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 4%;
+}
+
+.title-consejo {
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 1%;
+}
+
+/* Conciencia */
+/*variables*/
+.title-conciencia {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+  font-size: 2.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.pregunta {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.respuesta {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 4%;
+}
+
+.tipos-impactos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 3%;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: "card1 card2 card3";
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.card1 {
+  grid-area: card1;
+}
+
+.card2 {
+  grid-area: card2;
+}
+
+.card3 {
+  grid-area: card3;
+}
+
+.card-img {
+  height: 385px;
+  width: 100%;
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-size: 0.9rem;
+}
+
+p {
+  text-align: justify;
+  font-family: "Inconsolata", monospace;
+  font-size: 0.7rem;
+  margin-bottom: 10%;
+}
+
+/* Sobre mi*/
+/*variables*/
+.Emi {
+  color: white;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  padding: 20px;
+  font-size: 2.5rem !important;
+  margin-top: 1.5rem;
+}
+
+.style-paragraph {
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imagen {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 30%;
+  height: 5rem;
+  width: 25rem;
+}
+
+/*# sourceMappingURL=style.css.map */

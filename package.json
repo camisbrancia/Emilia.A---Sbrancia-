@@ -1,0 +1,19 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camisbrancia/Emilia.A---Sbrancia-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camisbrancia/Emilia.A---Sbrancia-/issues"
+  },
+  "homepage": "https://github.com/camisbrancia/Emilia.A---Sbrancia-#readme",
+  "description": ""
+}

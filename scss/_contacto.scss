@@ -1,0 +1,53 @@
+/* Contacto */
+
+/*variables*/
+$c:white;
+$t-align:center;
+$pad: 20px;
+$d:flex;
+
+.titulo{
+color:$c;
+text-align: $t-align;
+font-family: 'Inconsolata', monospace;
+padding: $pad;
+font-size: 2.5rem !important;
+margin-top: 1.5rem;
+}
+
+.contacto-container{
+text-align: $t-align;
+font-family: 'Inconsolata', monospace;
+padding:$pad;
+}
+.formulario-title{
+color:$c;
+text-align: $t-align;
+font-family: 'Inconsolata', monospace;
+text-transform: uppercase;
+padding:$pad;
+}
+
+.formulario-main{
+font-family: 'Inconsolata', monospace;
+color: black;
+display: $d;
+justify-content: center;
+background-color: $c;
+width: 100%;
+padding: $pad;
+margin-bottom:2%;
+}
+.form-control{
+    width: 500px !important;
+}
+
+.btn{
+    background-color:black !important;
+    display: $d;
+    justify-content: center !important;
+    text-transform: uppercase !important;
+    border-color: black;
+    &:hover{
+        text-decoration: underline;
+}}

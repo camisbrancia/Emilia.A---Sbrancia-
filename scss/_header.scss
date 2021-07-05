@@ -1,0 +1,30 @@
+/* Header */
+
+/* variables*/
+$bg-color:white;
+$p-general: 1px;
+$w:100%;
+
+header{
+    background-color: $bg-color;
+    width: $w;
+    display: flex;
+    justify-content: space-around;
+    nav{
+        padding: $p-general;
+        ul{
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;
+
+                    &:hover{
+                        color: black;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+/* Body */
+
+/* variables*/
+$bg-color:rgba(245, 245, 245, 0.452);
+$p-images: 20rem;
+$j-cont: space-around;
+$d:flex;
+$w-image:25rem;
+
+
+.photo-grid img {
+    width: $w-image;
+    height: $w-image;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.photo-grid {
+    display: $d;
+    justify-content: $j-cont;
+    background-color: $bg-color;
+    margin-top: 3%;
+}
+.btn-outline-secondary:hover{
+    background-color: whitesmoke !important;
+}
+
+
+.photo-grid a {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    letter-spacing: 3px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 0.9rem;
+    display: $d;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
